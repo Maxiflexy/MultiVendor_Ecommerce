@@ -14,7 +14,6 @@ import static jakarta.persistence.GenerationType.AUTO;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-@EqualsAndHashCode
 public class Product {
 
     @Id

@@ -17,6 +17,7 @@ import static jakarta.persistence.GenerationType.AUTO;
 @AllArgsConstructor
 @NoArgsConstructor
 @EqualsAndHashCode
+@Table(name = "orders")
 public class Order {
 
     @Id
